@@ -1,5 +1,7 @@
 # intentRecognizer
 
+Build system : >=Cmake 3.18.2
+
 Dependencies:
   C++17
   googletest

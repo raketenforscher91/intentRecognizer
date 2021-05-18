@@ -1,6 +1,6 @@
 # intentRecognizer
 
-Build system : Cmake (tested on mac with v3.18.2 and ubuntu with v3.16.3)
+Build system : Cmake (tested on mac with v3.18.2 and ubuntu with v3.16.3) minimum supported version 3.7
 
 Dependencies:
   C++17

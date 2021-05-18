@@ -6,7 +6,7 @@ set(CXX_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread")
 
 
-project(IntentReg)
+project(IntentRec)
 
 file(GLOB project_SRCS 
 	src/IntentRecognizerTest.cpp
@@ -17,7 +17,7 @@ find_package(GTest REQUIRED)
 include_directories( ${GTEST_INCLUDE_DIRS} )
 enable_testing()
 
-add_executable(IntentRegTest ${project_SRCS} ${project_INCL})
+add_executable(IntentRecTest ${project_SRCS} ${project_INCL})
 target_link_libraries(IntentRecTest ${GTEST_LIBRARIES} )
 
 file(GLOB project_SRCS 

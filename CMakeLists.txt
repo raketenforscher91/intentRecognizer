@@ -18,10 +18,10 @@ include_directories( ${GTEST_INCLUDE_DIRS} )
 enable_testing()
 
 add_executable(IntentRegTest ${project_SRCS} ${project_INCL})
-target_link_libraries(IntentRegTest ${GTEST_LIBRARIES} )
+target_link_libraries(IntentRecTest ${GTEST_LIBRARIES} )
 
 file(GLOB project_SRCS 
 	src/main.cpp
 	src/IntentRecognizer.cpp)
 file(GLOB project_INCL include/*)
-add_executable(IntentReg ${project_SRCS} ${project_INCL})
+add_executable(IntentRec ${project_SRCS} ${project_INCL})
